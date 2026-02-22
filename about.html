@@ -1,61 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Stratum Engineering</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Stratum Engineering</title>
+  <meta name="description" content="Learn about Stratum Engineering PLLC — founded in 2025 on a commitment to technical excellence and multi-layered problem solving." />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-    <header>
-        <img src="images/logo.png" alt="Stratum Engineering Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <h1>About Stratum Engineering</h1>
-        <h2>Our Mission</h2>
-        <p>At Stratum Engineering, we apply first-principles thinking and
-            precision engineering to deliver innovative, reliable, and
-            forward-thinking solutions. Our mission is to bridge the gap
-            between concept and execution, ensuring safety, efficiency, and
-            technological advancement in every project we undertake.
-            Through expertise, integrity, and a commitment to excellence,
-            we strive to shape the future of engineering - one layer at a time.</p>
-        <h2>Our Clients</h2>
-        <p>Proudly serving a wide array of industries including energy,
-            utilities, processing, environmental, data centers, and
-            manufacturing, we work with a portfolio of small and large companies.</p>
-        <h2>Our History</h2>
-        <p>Founded in 2025 out of the desire to do more, Stratum Engineering was
-            built to to redefine consulting through a foundational commitment to
-            technical excellence and multi-layered problem solving. We are lean,
-            adaptive, and ready to provide you with unparalleled service.</p>
-        <h2>Our Leadership</h2>
-        <h3>Dakota Wilhelm</h3>
-        <p>President and Principal Engineer</p>
-        <p>Dakota is the President and Principal Engineer,
-            bringing years of expertise in mechanical
-            engineering, component design, and system
-            analysis. With a background in leading high-stakes
-            rapid projects, he specializes in innovative
-            solutions for complex engineering challenges.
-            Committed to precision and excellence,
-            he founded Stratum Engineering to provide top-tier
-            consulting and design services across various
-            industrial sectors.</p>
-        <img src="images/headshot.png" alt="Founder Headshot" style="max-width:200px;margin-top:20px;">
-    </main>
-    <footer>
-        &copy; 2025 Stratum Engineering. All rights reserved.
-    </footer>
-</body>
 
+  <!-- ── Nav ──────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.png" alt="Stratum Engineering" class="nav__logo-img" />
+        <div class="nav__logo-wordmark">
+          Stratum Engineering
+          <span>Professional Engineering Consulting</span>
+        </div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav__cta">Get in Touch</a>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ───────────────────────────────────────────── -->
+  <div class="page-header">
+    <div class="page-header__inner">
+      <p class="page-header__eyebrow">About the Firm</p>
+      <h1 class="page-header__title">Built to do more.<br>One layer at a time.</h1>
+    </div>
+  </div>
+
+  <!-- ── Mission ───────────────────────────────────────────────── -->
+  <section class="section" style="background:#fff;">
+    <div class="section__inner">
+      <div class="about-grid">
+        <div>
+          <p class="section-label">Our Mission</p>
+          <h2 class="section-title">Engineering done the right way</h2>
+          <p style="font-size:17px;font-weight:300;color:var(--steel);line-height:1.85;margin-bottom:18px;">
+            At Stratum Engineering, we apply first-principles thinking and precision
+            engineering to deliver innovative, reliable, and forward-thinking solutions.
+            Our mission is to bridge the gap between concept and execution — ensuring
+            safety, efficiency, and technological advancement in every project we undertake.
+          </p>
+          <p style="font-size:17px;font-weight:300;color:var(--steel);line-height:1.85;margin-bottom:18px;">
+            Through expertise, integrity, and a commitment to excellence, we strive to
+            shape the future of engineering — one layer at a time.
+          </p>
+        </div>
+        <div>
+          <p class="section-label">Our Clients</p>
+          <h2 class="section-title">Industries We Serve</h2>
+          <p style="font-size:17px;font-weight:300;color:var(--steel);line-height:1.85;margin-bottom:28px;">
+            Proudly serving a wide array of industries, we work with a portfolio of small and large companies.
+          </p>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--silver);">
+            <div style="background:var(--ice);padding:18px 20px;font-family:var(--heading);font-size:14px;font-weight:600;letter-spacing:0.06em;color:var(--blue);">⚡ Energy</div>
+            <div style="background:var(--ice);padding:18px 20px;font-family:var(--heading);font-size:14px;font-weight:600;letter-spacing:0.06em;color:var(--blue);">🔌 Utilities</div>
+            <div style="background:var(--ice);padding:18px 20px;font-family:var(--heading);font-size:14px;font-weight:600;letter-spacing:0.06em;color:var(--blue);">⚗️ Processing</div>
+            <div style="background:var(--ice);padding:18px 20px;font-family:var(--heading);font-size:14px;font-weight:600;letter-spacing:0.06em;color:var(--blue);">🌿 Environmental</div>
+            <div style="background:var(--ice);padding:18px 20px;font-family:var(--heading);font-size:14px;font-weight:600;letter-spacing:0.06em;color:var(--blue);">🖥️ Data Centers</div>
+            <div style="background:var(--ice);padding:18px 20px;font-family:var(--heading);font-size:14px;font-weight:600;letter-spacing:0.06em;color:var(--blue);">🏭 Manufacturing</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── History & Values ───────────────────────────────────────── -->
+  <section class="section" style="background:var(--offwhite);padding-top:80px;padding-bottom:80px;">
+    <div class="section__inner">
+      <div style="display:grid;grid-template-columns:1fr 1.3fr;gap:80px;align-items:start;">
+        <div>
+          <p class="section-label">Our History</p>
+          <h2 class="section-title">Founded in 2025</h2>
+          <p style="font-size:17px;font-weight:300;color:var(--steel);line-height:1.85;margin-bottom:18px;">
+            Stratum Engineering was founded out of the desire to do more — to redefine
+            consulting through a foundational commitment to technical excellence and
+            multi-layered problem solving.
+          </p>
+          <p style="font-size:17px;font-weight:300;color:var(--steel);line-height:1.85;">
+            We are lean, adaptive, and ready to provide you with unparalleled service.
+          </p>
+        </div>
+        <div>
+          <p class="section-label">Our Values</p>
+          <h2 class="section-title" style="margin-bottom:28px;">The principles we<br>engineer around</h2>
+          <div class="value-list">
+            <div class="value-item">
+              <div class="value-item__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+              </div>
+              <div>
+                <div class="value-item__title">Precision</div>
+                <div class="value-item__body">First-principles engineering — every analysis traced back to fundamental physics, not shortcuts.</div>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-item__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+              </div>
+              <div>
+                <div class="value-item__title">Integrity</div>
+                <div class="value-item__body">We call it as we see it — honest assessments that serve your project, not a desired outcome.</div>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-item__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              </div>
+              <div>
+                <div class="value-item__title">Innovation</div>
+                <div class="value-item__body">Creative solutions to complex problems — we don't default to what's been done before if something better exists.</div>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-item__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+              </div>
+              <div>
+                <div class="value-item__title">Excellence</div>
+                <div class="value-item__body">Every deliverable reflects our commitment to quality — from the first scope call through final stamp.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Leadership ─────────────────────────────────────────────── -->
+  <section class="section" style="background:#fff;">
+    <div class="section__inner">
+      <p class="section-label">Our Leadership</p>
+      <h2 class="section-title" style="margin-bottom:48px;">The people behind the work</h2>
+      <div class="leadership-card">
+        <img src="images/headshot.png" alt="Dakota Wilhelm" class="leadership-card__photo" />
+        <div>
+          <div class="leadership-card__name">Dakota Wilhelm</div>
+          <div class="leadership-card__role">President & Principal Engineer</div>
+          <p class="leadership-card__bio">
+            Dakota is the President and Principal Engineer of Stratum Engineering, bringing years
+            of expertise in mechanical engineering, component design, and system analysis. With a
+            background in leading high-stakes rapid projects, he specializes in innovative solutions
+            for complex engineering challenges across industrial and technology sectors.
+          </p>
+          <p class="leadership-card__bio" style="margin-top:16px;">
+            Committed to precision and excellence, he founded Stratum Engineering to provide
+            top-tier consulting and design services — built on first-principles rigor and a
+            genuine dedication to client outcomes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ───────────────────────────────────────────────────── -->
+  <div class="cta-band">
+    <div class="cta-band__inner">
+      <div>
+        <div class="cta-band__title">Let's work together.</div>
+        <div class="cta-band__sub">Reach out to discuss your project — no commitment required.</div>
+      </div>
+      <a href="contact.html" class="btn btn--ghost">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- ── Footer ─────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div>
+          <img src="images/logo.png" alt="Stratum Engineering" class="footer__logo-img" />
+          <div class="footer__desc">Stratum Engineering PLLC provides professional mechanical engineering consulting — personalized, rigorous, and results-driven. Headquartered in Richmond, VA with global remote capability.</div>
+        </div>
+        <div>
+          <div class="footer__heading">Navigation</div>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Contact</div>
+          <ul class="footer__links">
+            <li><a href="mailto:info@stratumengineering.com">info@stratumengineering.com</a></li>
+            <li><a href="contact.html">Project Inquiries</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2025 Stratum Engineering PLLC. All rights reserved.</span>
+        <span>Richmond, VA · Global Remote Support</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
 </html>

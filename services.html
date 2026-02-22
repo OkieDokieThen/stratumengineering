@@ -1,61 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Stratum Engineering</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — Stratum Engineering</title>
+  <meta name="description" content="Stratum Engineering PLLC services: Design, Analysis, Consulting, Project Management, Staff Augmentation, and Test Planning." />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-    <header>
-        <img src="images/logo.png" alt="Stratum Engineering Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Our Services</h1>
-        <h2>Design</h2>
-        <p>From collecting inputs and defining requirements, to drafting and documentation, to product creation and
-            delivery, Stratum Engineering is here to support your design related needs from beginning to end.</p>
-        <h2>Analysis</h2>
-        <p>Specializing in stress, fatigue, seismic, thermal, and fluid flow analyses. Offering a suite of analysis
-            methods,
-            Stratum Engineering prides itself on checking all analyses through a rigorous application of first
-            principles.
-        </p>
-        <h2>Consulting</h2>
-        <p>In challenging project environments, you need solutions before they impact your cost and schedule. We pride
-            ourselves on quickly coming up with impactful solutions that are creative, effective, and simple to
-            implement.
-        </p>
-        <h2>Project Management</h2>
-        <p>Managing resources effectively to optimize their allocation is mission critical to a project's success.
-            Through a
-            strict process-oriented means, we are able to plan, manage, and execute your projects to completion.
-        </p>
-        <h2>Staff Augmentation</h2>
-        <p>Stratum Engineering provides highly skilled engineers on demand, seamlessly integrating with your team to
-            support project surges, specialized tasks, or long-term initiatives. Our flexible staffing solutions ensure
-            you have
-            the right expertise at the right time, reducing overhead while maintaining project momentum.
-        </p>
-        <h2>Test Planning</h2>
-        <p>Develop comprehensive test plans tailored to your project's needs, ensuring rigorous validation, regulatory
-            compliance, and operational reliability. From defining test objectives, to executing structured protocols,
-            we help
-            mitigate risk and streamline development cycles.
-        </p>
-    </main>
-    <footer>
-        &copy; 2025 Stratum Engineering. All rights reserved.
-    </footer>
-</body>
 
+  <!-- ── Nav ──────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.png" alt="Stratum Engineering" class="nav__logo-img" />
+        <div class="nav__logo-wordmark">
+          Stratum Engineering
+          <span>Professional Engineering Consulting</span>
+        </div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav__cta">Get in Touch</a>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ───────────────────────────────────────────── -->
+  <div class="page-header">
+    <div class="page-header__inner">
+      <p class="page-header__eyebrow">Our Services</p>
+      <h1 class="page-header__title">Six ways we can<br>support your project.</h1>
+    </div>
+  </div>
+
+  <!-- ── Intro ──────────────────────────────────────────────────── -->
+  <section class="section" style="background:#fff;padding-bottom:32px;">
+    <div class="section__inner">
+      <p style="font-size:18px;font-weight:300;color:var(--steel);line-height:1.85;max-width:720px;">
+        From collecting inputs and defining requirements all the way through test planning and
+        staff augmentation — Stratum Engineering provides whatever your project needs, whenever you need it.
+        Every engagement is handled personally, with first-principles rigor at every step.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Service Blocks ─────────────────────────────────────────── -->
+  <section style="padding:0 40px 96px;">
+    <div style="max-width:var(--max-w);margin:0 auto;display:flex;flex-direction:column;gap:2px;">
+
+      <!-- 1 Design -->
+      <div class="service-block">
+        <div class="service-block__accent">
+          <div class="svc-icon">
+            <svg width="36" height="36" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="8" y="8" width="32" height="32" rx="1"/>
+              <path d="M8 20h32M20 20v20M32 20v20"/>
+              <circle cx="24" cy="14" r="3"/>
+            </svg>
+          </div>
+        </div>
+        <div class="service-block__content">
+          <div class="service-block__num">01 / Design</div>
+          <div class="service-block__title">Design & Documentation</div>
+          <div class="service-block__body">
+            From collecting inputs and defining requirements, to drafting and documentation,
+            to product creation and delivery — Stratum Engineering is here to support your
+            design-related needs from beginning to end. We produce clear, stamped deliverables
+            that stand up to review.
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Analysis -->
+      <div class="service-block service-block--flip">
+        <div class="service-block__accent">
+          <div class="svc-icon">
+            <svg width="36" height="36" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="24" cy="24" r="14"/>
+              <path d="M24 6v6M24 36v6M6 24h6M36 24h6"/>
+              <circle cx="24" cy="24" r="5"/>
+            </svg>
+          </div>
+        </div>
+        <div class="service-block__content">
+          <div class="service-block__num">02 / Analysis</div>
+          <div class="service-block__title">Engineering Analysis</div>
+          <div class="service-block__body">
+            Specializing in stress, fatigue, seismic, thermal, and fluid flow analyses.
+            Offering a full suite of analysis methods, Stratum Engineering prides itself
+            on checking all analyses through a rigorous application of first principles —
+            reducing risk and preventing costly surprises downstream.
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Consulting -->
+      <div class="service-block">
+        <div class="service-block__accent">
+          <div class="svc-icon">
+            <svg width="36" height="36" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M10 40V22l14-12 14 12v18H30V28H18v12z"/>
+            </svg>
+          </div>
+        </div>
+        <div class="service-block__content">
+          <div class="service-block__num">03 / Consulting</div>
+          <div class="service-block__title">Technical Consulting</div>
+          <div class="service-block__body">
+            In challenging project environments, you need solutions before they impact
+            your cost and schedule. We pride ourselves on quickly developing impactful
+            solutions that are creative, effective, and simple to implement — bringing
+            an outside perspective when it matters most.
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Project Management -->
+      <div class="service-block service-block--flip">
+        <div class="service-block__accent">
+          <div class="svc-icon">
+            <svg width="36" height="36" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="6" y="10" width="36" height="30" rx="1"/>
+              <path d="M6 18h36"/>
+              <path d="M14 6v8M34 6v8"/>
+              <path d="M14 26h8M14 32h14"/>
+            </svg>
+          </div>
+        </div>
+        <div class="service-block__content">
+          <div class="service-block__num">04 / Project Management</div>
+          <div class="service-block__title">Project Management</div>
+          <div class="service-block__body">
+            Managing resources effectively to optimize their allocation is mission critical
+            to a project's success. Through a strict process-oriented approach, we plan,
+            manage, and execute your projects through to completion — on time, on scope,
+            and on budget.
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 Staff Aug -->
+      <div class="service-block">
+        <div class="service-block__accent">
+          <div class="svc-icon">
+            <svg width="36" height="36" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="18" cy="16" r="6"/>
+              <path d="M6 40c0-8 5-13 12-13"/>
+              <circle cx="34" cy="16" r="6"/>
+              <path d="M42 40c0-8-5-13-12-13"/>
+              <path d="M24 40v-8"/>
+            </svg>
+          </div>
+        </div>
+        <div class="service-block__content">
+          <div class="service-block__num">05 / Staff Augmentation</div>
+          <div class="service-block__title">Staff Augmentation</div>
+          <div class="service-block__body">
+            Stratum Engineering provides highly skilled engineers on demand, seamlessly
+            integrating with your team to support project surges, specialized tasks, or
+            long-term initiatives. Our flexible staffing solutions ensure you have the
+            right expertise at the right time — reducing overhead while maintaining project momentum.
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 Test Planning -->
+      <div class="service-block service-block--flip">
+        <div class="service-block__accent">
+          <div class="svc-icon">
+            <svg width="36" height="36" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="8" y="6" width="32" height="36" rx="1"/>
+              <path d="M16 18h16M16 24h16M16 30h10"/>
+              <path d="M8 14h4M8 20h4"/>
+            </svg>
+          </div>
+        </div>
+        <div class="service-block__content">
+          <div class="service-block__num">06 / Test Planning</div>
+          <div class="service-block__title">Test Planning & Validation</div>
+          <div class="service-block__body">
+            We develop comprehensive test plans tailored to your project's needs — ensuring
+            rigorous validation, regulatory compliance, and operational reliability. From
+            defining test objectives to executing structured protocols, we help mitigate
+            risk and streamline development cycles.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── How We Work ────────────────────────────────────────────── -->
+  <section class="section" style="background:var(--offwhite);padding-top:80px;padding-bottom:80px;">
+    <div class="section__inner">
+      <p class="section-label">How We Work</p>
+      <h2 class="section-title" style="margin-bottom:52px;">A straightforward process</h2>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--silver);">
+        <div style="background:#fff;padding:36px 28px;">
+          <div style="font-family:var(--heading);font-size:44px;font-weight:700;color:var(--silver);line-height:1;margin-bottom:14px;">01</div>
+          <div style="font-family:var(--heading);font-size:17px;font-weight:700;letter-spacing:0.04em;color:var(--navy);margin-bottom:10px;">Discovery</div>
+          <div style="font-size:14px;font-weight:300;color:var(--steel);line-height:1.7;">We learn about your project, constraints, timeline, and goals.</div>
+        </div>
+        <div style="background:#fff;padding:36px 28px;">
+          <div style="font-family:var(--heading);font-size:44px;font-weight:700;color:var(--silver);line-height:1;margin-bottom:14px;">02</div>
+          <div style="font-family:var(--heading);font-size:17px;font-weight:700;letter-spacing:0.04em;color:var(--navy);margin-bottom:10px;">Proposal</div>
+          <div style="font-size:14px;font-weight:300;color:var(--steel);line-height:1.7;">A clear scope-of-work and fee — no ambiguity about what you're getting.</div>
+        </div>
+        <div style="background:#fff;padding:36px 28px;">
+          <div style="font-family:var(--heading);font-size:44px;font-weight:700;color:var(--silver);line-height:1;margin-bottom:14px;">03</div>
+          <div style="font-family:var(--heading);font-size:17px;font-weight:700;letter-spacing:0.04em;color:var(--navy);margin-bottom:10px;">Execution</div>
+          <div style="font-size:14px;font-weight:300;color:var(--steel);line-height:1.7;">Engineering work performed with regular communication and milestone check-ins.</div>
+        </div>
+        <div style="background:#fff;padding:36px 28px;">
+          <div style="font-family:var(--heading);font-size:44px;font-weight:700;color:var(--silver);line-height:1;margin-bottom:14px;">04</div>
+          <div style="font-family:var(--heading);font-size:17px;font-weight:700;letter-spacing:0.04em;color:var(--navy);margin-bottom:10px;">Delivery</div>
+          <div style="font-size:14px;font-weight:300;color:var(--steel);line-height:1.7;">Stamped deliverables on time — and we're available for questions after.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ───────────────────────────────────────────────────── -->
+  <div class="cta-band">
+    <div class="cta-band__inner">
+      <div>
+        <div class="cta-band__title">Have a project in mind?</div>
+        <div class="cta-band__sub">We'll scope it out and respond quickly.</div>
+      </div>
+      <a href="contact.html" class="btn btn--ghost">Start a Conversation</a>
+    </div>
+  </div>
+
+  <!-- ── Footer ─────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div>
+          <img src="images/logo.png" alt="Stratum Engineering" class="footer__logo-img" />
+          <div class="footer__desc">Stratum Engineering PLLC provides professional mechanical engineering consulting — personalized, rigorous, and results-driven. Headquartered in Richmond, VA with global remote capability.</div>
+        </div>
+        <div>
+          <div class="footer__heading">Navigation</div>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Contact</div>
+          <ul class="footer__links">
+            <li><a href="mailto:info@stratumengineering.com">info@stratumengineering.com</a></li>
+            <li><a href="contact.html">Project Inquiries</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2025 Stratum Engineering PLLC. All rights reserved.</span>
+        <span>Richmond, VA · Global Remote Support</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
 </html>

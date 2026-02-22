@@ -1,37 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Stratum Engineering</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Stratum Engineering</title>
+  <meta name="description" content="Contact Stratum Engineering PLLC — headquartered in Richmond, VA with global remote capability." />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-    <header>
-        <img src="images/logo.png" alt="Stratum Engineering Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Contact Stratum Engineering</h1>
-        <p>Stratum is headquartered in the greater Richmond
-            Virginia area and offers global remote support.
-            We’d love to hear from you!
-            For project inquiries or consulting support, please contact us at:</p>
-        <div class="contact-info">
-            <p>Email: <a href="mailto:info@stratumengineering.com">info@stratumengineering.com</a></p>
-        </div>
-    </main>
-    <footer>
-        &copy; 2025 Stratum Engineering. All rights reserved.
-    </footer>
-</body>
 
+  <!-- ── Nav ──────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.png" alt="Stratum Engineering" class="nav__logo-img" />
+        <div class="nav__logo-wordmark">
+          Stratum Engineering
+          <span>Professional Engineering Consulting</span>
+        </div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav__cta">Get in Touch</a>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ───────────────────────────────────────────── -->
+  <div class="page-header">
+    <div class="page-header__inner">
+      <p class="page-header__eyebrow">Contact Us</p>
+      <h1 class="page-header__title">We'd love to hear<br>from you.</h1>
+    </div>
+  </div>
+
+  <!-- ── Contact Layout ─────────────────────────────────────────── -->
+  <section class="section" style="background:#fff;">
+    <div class="section__inner">
+      <div class="contact-layout">
+
+        <!-- Info column -->
+        <div>
+          <p class="section-label">Get in Touch</p>
+          <h2 class="section-title" style="margin-bottom:18px;">For project inquiries<br>or consulting support.</h2>
+          <p style="font-size:16px;font-weight:300;color:var(--steel);line-height:1.8;margin-bottom:40px;">
+            Stratum is headquartered in the greater Richmond, Virginia area and offers
+            global remote support. Whether you have a fully defined scope or just an
+            early-stage idea, reach out — we're happy to discuss.
+          </p>
+
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <div>
+              <div class="contact-info-item__label">Email</div>
+              <div class="contact-info-item__value"><a href="mailto:info@stratumengineering.com" style="color:var(--sky);">info@stratumengineering.com</a></div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <div>
+              <div class="contact-info-item__label">Headquarters</div>
+              <div class="contact-info-item__value">Greater Richmond, Virginia</div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-item__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+            </div>
+            <div>
+              <div class="contact-info-item__label">Remote Capability</div>
+              <div class="contact-info-item__value">Global remote support available</div>
+            </div>
+          </div>
+
+          <!-- What to expect box -->
+          <div style="margin-top:8px;padding:26px 26px;background:var(--ice);border:1px solid var(--silver);border-left:3px solid var(--sky);">
+            <div style="font-family:var(--heading);font-size:12px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--navy);margin-bottom:14px;">What to expect</div>
+            <div style="display:flex;flex-direction:column;gap:10px;">
+              <div style="font-size:14px;font-weight:300;color:var(--steel);display:flex;gap:10px;align-items:flex-start;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--sky)" stroke-width="2.5" style="flex-shrink:0;margin-top:2px;"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+                A response within one business day
+              </div>
+              <div style="font-size:14px;font-weight:300;color:var(--steel);display:flex;gap:10px;align-items:flex-start;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--sky)" stroke-width="2.5" style="flex-shrink:0;margin-top:2px;"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+                A brief call to understand your project needs
+              </div>
+              <div style="font-size:14px;font-weight:300;color:var(--steel);display:flex;gap:10px;align-items:flex-start;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--sky)" stroke-width="2.5" style="flex-shrink:0;margin-top:2px;"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+                A clear proposal with scope and fee — no surprises
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form column -->
+        <div>
+          <div style="padding:48px 44px;background:#fff;border:1px solid var(--silver);box-shadow:0 4px 40px rgba(10,61,98,0.06);">
+            <div style="font-family:var(--heading);font-size:12px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--sky);margin-bottom:24px;">Send a Message</div>
+            <form class="form" action="mailto:info@stratumengineering.com" method="POST" enctype="text/plain">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="first-name">First Name</label>
+                  <input type="text" id="first-name" name="first-name" placeholder="Jane" required />
+                </div>
+                <div class="form-group">
+                  <label for="last-name">Last Name</label>
+                  <input type="text" id="last-name" name="last-name" placeholder="Smith" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="jane@yourcompany.com" required />
+              </div>
+              <div class="form-group">
+                <label for="company">Company / Organization</label>
+                <input type="text" id="company" name="company" placeholder="Your company (optional)" />
+              </div>
+              <div class="form-group">
+                <label for="service">Service of Interest</label>
+                <select id="service" name="service">
+                  <option value="">— Select a service —</option>
+                  <option>Design & Documentation</option>
+                  <option>Engineering Analysis</option>
+                  <option>Technical Consulting</option>
+                  <option>Project Management</option>
+                  <option>Staff Augmentation</option>
+                  <option>Test Planning & Validation</option>
+                  <option>Not Sure / Multiple</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Tell Us About Your Project</label>
+                <textarea id="message" name="message" placeholder="Briefly describe your project, timeline, and the engineering challenges you're facing…" required></textarea>
+              </div>
+              <button type="submit" class="btn btn--primary" style="align-self:flex-start;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                Send Message
+              </button>
+            </form>
+          </div>
+          <p style="font-size:13px;font-weight:300;color:var(--steel);margin-top:14px;text-align:center;">
+            Prefer email? Reach us directly at
+            <a href="mailto:info@stratumengineering.com" style="color:var(--sky);">info@stratumengineering.com</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div>
+          <img src="images/logo.png" alt="Stratum Engineering" class="footer__logo-img" />
+          <div class="footer__desc">Stratum Engineering PLLC provides professional mechanical engineering consulting — personalized, rigorous, and results-driven. Headquartered in Richmond, VA with global remote capability.</div>
+        </div>
+        <div>
+          <div class="footer__heading">Navigation</div>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Contact</div>
+          <ul class="footer__links">
+            <li><a href="mailto:info@stratumengineering.com">info@stratumengineering.com</a></li>
+            <li><a href="contact.html">Project Inquiries</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2025 Stratum Engineering PLLC. All rights reserved.</span>
+        <span>Richmond, VA · Global Remote Support</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
 </html>

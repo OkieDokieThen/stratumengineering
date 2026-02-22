@@ -1,33 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stratum Engineering</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stratum Engineering — Mechanical Engineering Consulting</title>
+  <meta name="description" content="Stratum Engineering PLLC — Professional mechanical engineering consulting. First-principles thinking, precision results." />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-    <header>
-        <img src="images/logo.png" alt="Stratum Engineering Logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Welcome to Stratum Engineering</h1>
-        <p>Stratum Engineering PLLC provides professional consulting, engineering solutions, and innovative technical
-            services to help your projects succeed. We are a small professional engineering consulting firm, dedicated
-            to getting you meaningful and personalized results.</p>
-    </main>
-    <footer>
-        &copy; 2025 Stratum Engineering. All rights reserved.
-    </footer>
-</body>
 
+  <!-- ── Nav ──────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.png" alt="Stratum Engineering" class="nav__logo-img" />
+        <div class="nav__logo-wordmark">
+          Stratum Engineering
+          <span>Professional Engineering Consulting</span>
+        </div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav__cta">Get in Touch</a>
+    </div>
+  </nav>
+
+  <!-- ── Hero ─────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__inner">
+      <p class="hero__eyebrow">Stratum Engineering PLLC</p>
+      <h1 class="hero__title">
+        First-principles<br>thinking.<br><em>Precision</em> results.
+      </h1>
+      <p class="hero__sub">
+        Professional mechanical engineering consulting — bridging the gap between
+        concept and execution across energy, industrial, and technology sectors.
+      </p>
+      <div class="hero__ctas">
+        <a href="services.html" class="btn btn--primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Our Services
+        </a>
+        <a href="contact.html" class="btn btn--ghost">Start a Conversation</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <div class="hero__scroll-line"></div>
+      <div class="hero__scroll-label">Scroll</div>
+    </div>
+  </section>
+
+  <!-- ── Stats ─────────────────────────────────────────────────── -->
+  <div class="stats">
+    <div class="stats__inner">
+      <div class="stats__item">
+        <div class="stats__num">PE</div>
+        <div class="stats__label">Licensed Engineer</div>
+      </div>
+      <div class="stats__item">
+        <div class="stats__num">6+</div>
+        <div class="stats__label">Sectors Served</div>
+      </div>
+      <div class="stats__item">
+        <div class="stats__num">Global</div>
+        <div class="stats__label">Remote Capability</div>
+      </div>
+      <div class="stats__item">
+        <div class="stats__num">2025</div>
+        <div class="stats__label">Founded</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── What We Do ────────────────────────────────────────────── -->
+  <section class="section" style="background:#fff;">
+    <div class="section__inner">
+      <p class="section-label">What We Do</p>
+      <h2 class="section-title">Mechanical engineering<br>across every phase</h2>
+      <p class="section-body" style="margin-bottom:56px;">
+        From concept through commissioning, Stratum Engineering delivers the technical
+        depth and precision of a large firm with the accountability and access of a
+        dedicated partner.
+      </p>
+      <div class="cards cards--3">
+        <div class="card">
+          <svg class="card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="6" y="6" width="36" height="36" rx="1"/>
+            <path d="M6 18h36M18 18v24M30 18v24"/>
+            <circle cx="24" cy="12" r="3"/>
+          </svg>
+          <div class="card__title">Design</div>
+          <div class="card__body">From collecting inputs and defining requirements to drafting, documentation, and product delivery — end-to-end design support for your project.</div>
+        </div>
+        <div class="card">
+          <svg class="card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="24" cy="24" r="12"/>
+            <path d="M24 6v6M24 36v6M6 24h6M36 24h6"/>
+            <path d="M11.5 11.5l4.2 4.2M32.3 32.3l4.2 4.2"/>
+          </svg>
+          <div class="card__title">Analysis</div>
+          <div class="card__body">Stress, fatigue, seismic, thermal, and fluid flow analyses — all checked through a rigorous application of first-principles engineering.</div>
+        </div>
+        <div class="card">
+          <svg class="card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M8 40V22l16-14 16 14v18H30V28H18v12z"/>
+          </svg>
+          <div class="card__title">Consulting</div>
+          <div class="card__body">When you need solutions before they impact cost and schedule, we deliver quickly — creative, effective, and simple to implement.</div>
+        </div>
+      </div>
+      <div style="margin-top:40px;text-align:center;">
+        <a href="services.html" class="btn btn--dark">View All Six Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Why Stratum ────────────────────────────────────────────── -->
+  <section class="section" style="background:var(--navy);">
+    <div class="section__inner">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;">
+        <div>
+          <p class="section-label">Why Choose Us</p>
+          <h2 class="section-title section-title--light">Lean. Adaptive.<br>Results-driven.</h2>
+          <p class="section-body section-body--light" style="margin-bottom:36px;">
+            Stratum Engineering was built to redefine consulting through a foundational
+            commitment to technical excellence and multi-layered problem solving.
+            We're lean, adaptive, and ready to provide you with unparalleled service.
+          </p>
+          <a href="about.html" class="btn btn--primary">About the Firm</a>
+        </div>
+        <div>
+          <div class="feature-row">
+            <svg class="feature-row__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            <div>
+              <div class="feature-row__title">Licensed Professional Engineer</div>
+              <div class="feature-row__body">All work is reviewed and stamped by a PE — accountability built into every deliverable.</div>
+            </div>
+          </div>
+          <div class="feature-row">
+            <svg class="feature-row__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            <div>
+              <div class="feature-row__title">First-Principles Rigor</div>
+              <div class="feature-row__body">Every analysis is traced back to fundamental physics — not rules of thumb or unchecked software outputs.</div>
+            </div>
+          </div>
+          <div class="feature-row">
+            <svg class="feature-row__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+            <div>
+              <div class="feature-row__title">Global Remote Support</div>
+              <div class="feature-row__body">Headquartered in Richmond, VA — with the tools and experience to serve clients anywhere.</div>
+            </div>
+          </div>
+          <div class="feature-row">
+            <svg class="feature-row__icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            <div>
+              <div class="feature-row__title">Industries We Serve</div>
+              <div class="feature-row__body">Energy, utilities, processing, environmental, data centers, and manufacturing — small and large companies alike.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA Band ───────────────────────────────────────────────── -->
+  <div class="cta-band">
+    <div class="cta-band__inner">
+      <div>
+        <div class="cta-band__title">Ready to work together?</div>
+        <div class="cta-band__sub">Tell us about your project — we'd love to hear from you.</div>
+      </div>
+      <a href="contact.html" class="btn btn--ghost">Contact Us Today</a>
+    </div>
+  </div>
+
+  <!-- ── Footer ─────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__grid">
+        <div>
+          <img src="images/logo.png" alt="Stratum Engineering" class="footer__logo-img" />
+          <div class="footer__desc">Stratum Engineering PLLC provides professional mechanical engineering consulting — personalized, rigorous, and results-driven. Headquartered in Richmond, VA with global remote capability.</div>
+        </div>
+        <div>
+          <div class="footer__heading">Navigation</div>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Contact</div>
+          <ul class="footer__links">
+            <li><a href="mailto:info@stratumengineering.com">info@stratumengineering.com</a></li>
+            <li><a href="contact.html">Project Inquiries</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2025 Stratum Engineering PLLC. All rights reserved.</span>
+        <span>Richmond, VA · Global Remote Support</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
 </html>
